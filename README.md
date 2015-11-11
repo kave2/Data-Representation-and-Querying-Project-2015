@@ -1,4 +1,3 @@
-# Project title
 ## Data Representation and Querying Project 2015
 ### Mario Szombati(G00316944)
 
