@@ -34,22 +34,22 @@ https://www.dropbox.com/s/83vu4o0t5m2orxo/data.json?dl=0.
 
 ###*Explanation of GET, POST, DELETE, PUT*
 ####*GET*
-####The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect
 
 ####*POST*
-####POST request method requests that a web server accepts and stores the data enclosed in the body of the request message. Used when uploading a file or submitting a completed web form.
+POST request method requests that a web server accepts and stores the data enclosed in the body of the request message. Used when uploading a file or submitting a completed web form.
 
 ####*DELETE*
-####The DELETE method deletes the specified resource
+The DELETE method deletes the specified resource
 
 ####*PUT*
-####The PUT method requests that the enclosed entity be stored under the supplied URI.  if the URI does not point to an existing resource, then the server can create the resource with that URI
+The PUT method requests that the enclosed entity be stored under the supplied URI.  if the URI does not point to an existing resource, then the server can create the resource with that URI
 
 
 ----------
 
 
-###Sample  JSON data
+####Sample  JSON data
  
 
     {
@@ -95,7 +95,7 @@ https://www.dropbox.com/s/83vu4o0t5m2orxo/data.json?dl=0.
 ----------
 
 
-###*Api root level is http://tld/park*
+###**Api root level is http://tld/park**
 
 ###*Get Method*
 ####*Silent get request:*
