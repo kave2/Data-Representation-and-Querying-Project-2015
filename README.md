@@ -94,9 +94,6 @@ The PUT method requests that the enclosed entity be stored under the supplied UR
 
 ----------
 
-
-###**Api root level is http://tld/park**
-
 ###*Get Method*
 ####*Silent get request:*
 http://tld/park
