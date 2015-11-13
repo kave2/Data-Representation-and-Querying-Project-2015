@@ -193,3 +193,32 @@ http://tld.com/park[/ID]
       }
 
 
+###*DELETE Method*
+
+
+
+    DELETE /park?OBJECTID=1 HTTP/1.1
+    Host: kave.info
+    Cache-Control: no-cache
+
+This call would delete the record of ObjectId = 1 from web server.
+
+###*PUT Method*
+
+
+    PUT /park?OBJECTID=1&NUMBER=1&NAME=Briarhill Park HTTP/1.1
+    Host: kave.info
+    Cache-Control: no-cache
+    
+This call would update the .json file and its attribute name from Corrib Park to Briarhill Park on the web server.
+Before:
+
+    {
+        "NAME": "Corrib Park",
+    }
+  After:
+  
+    {
+        "NAME": "Briarhill Park",
+    }
+
